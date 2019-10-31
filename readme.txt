@@ -1,4 +1,13 @@
+=========
+Outlaw JS
+=========
+- The renegade JavaScript game engine by Nightmare Games
+- Tired of game engines telling you what to make and how to make it?
+- Go outlaw.
+
+===================
 Quick Feature List:
+===================
 
 - Multi-Browser
   - Chrome
