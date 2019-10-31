@@ -1,0 +1,30 @@
+////////////////////////////////////////////////////////////////////////////////
+// Sound and music control
+////////////////////////////////////////////////////////////////////////////////
+
+var music_track = 0;
+
+////////////////////////////////////////////////////////////////////////////////
+
+function play_sound (sound)
+  {  
+  if (sound === "start")
+    {
+    createjs.Sound.play ("test_sound");
+    }
+  }
+
+////////////////////////////////////////////////////////////////////////////////
+
+// Customize before implementing
+
+function Music_Control ()
+  {
+  if (music_player.getPaused() === true && music[music_track].loaded === true)
+    {
+    music_player = createjs.Sound.play (music[music_track].id);
+    music_player.volume = music_volume;
+    music_player.loop = -1;
+    }
+  }
+
