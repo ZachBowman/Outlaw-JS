@@ -2,7 +2,8 @@
 // Gameplay-specific logic
 ////////////////////////////////////////////////////////////////////////////////
 
-// slow distance checker
+// accurate & slow distance checker
+// best for one-time checks
 function get_distance (thing1, thing2)
   {
   return Math.sqrt (((thing1.x - thing2.x) * (thing1.x - thing2.x)) + ((thing1.y - thing2.y) * (thing1.y - thing2.y)));
@@ -10,7 +11,8 @@ function get_distance (thing1, thing2)
 
 ////////////////////////////////////////////////////////////////////////////////
 
-// fast, inaccurate distance checker
+// fast & inaccurate distance checker
+// best for recurring checks
 function close_enough (thing1, thing2, distance)
   {
   if (thing1.x > thing2.x - distance && thing1.x < thing2.x + distance

@@ -299,7 +299,7 @@ this.mygame_namespace = this.mygame_namespace || {};
       game.draw_background();
       }
    
-    fade_rander();
+    fade_render();
     }
 
   mygame.prototype.draw_background = function()

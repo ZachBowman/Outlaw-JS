@@ -3,10 +3,10 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 // game state references
-var LOADING      = 0;
-var SPLASH       = 1;
-var TITLE        = 2;
-var GAME         = 3;
+var LOADING = 0;
+var SPLASH  = 1;
+var TITLE   = 2;
+var GAME    = 3;
 
 // control types
 var NO_CONTROL = 0;        // player has not used any input yet
